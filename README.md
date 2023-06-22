@@ -1,25 +1,39 @@
-# CDN (Content Delivery Network)
+# Nigeria Bank Logos
 
-CDN is a repository created to store and serve static assets through the Js Delivr CDN. This allows for fast and reliable delivery of static files.
+A Nigeria Bank Logos is a specialized repository designed to store and deliver Nigeria banks' logos through the Js Delivr CDN. This CDN ensures efficient and reliable distribution of static logo files.
 
-## How to Use
+## Usage Guide
 
-To include assets from this CDN in your project, you can use the following URLs:
+To incorporate logo assets from this CDN into your project, you can utilize the following URLs:
 
-```
-https://cdn.jsdelivr.net/gh/<your-username>/cdn@<release-tag>/<path-to-asset>
-```
-
-Replace `<your-username>` with your GitHub username and `<release-tag>` with the desired release tag or branch name. `<path-to-asset>` should be the relative path to the asset file you wish to include.
-
-For example, if you want to include a JavaScript file named `script.js` from the `scripts` directory of the `main` branch, the URL would be:
-
-```
-https://cdn.jsdelivr.net/gh/wovenfinance/cdn@main/logos/bankname.png
+```bash
+https://cdn.jsdelivr.net/gh/wovenfinance/cdn@main/logos/<bankcode.png>
 ```
 
-To ensure browser caching and improve performance, it is recommended to use a specific release tag or branch name instead of the default `main` branch.
+For instance, if you wish to include the Access Bank logo from the `logos` directory of the `main` branch, the URL would be:
 
-## Contributing
+```bash
+https://cdn.jsdelivr.net/gh/wovenfinance/cdn@main/logos/000014.png
+```
 
-Contributions to this repository are welcome. If you have any static assets that you would like to share through this CDN, follow these steps:
+To optimize browser caching and enhance performance, it is recommended to specify a particular release tag or branch name instead of relying on the default `main` branch.
+
+## Contributing to the project
+
+Contributions to this repository are highly encouraged. If you have any bank logo that you would like to share through this repository, please follow these steps:
+
+1. Fork the repository to your own GitHub account.
+2. Create a new branch with a descriptive name for your asset.
+3. Add your static asset to the appropriate directory within the repository.
+4. Submit a pull request to the `main` branch of this repository.
+5. Your pull request will undergo review, and if accepted, your asset will be merged into the CDN.
+
+Please ensure that your contributions adhere to the guidelines and best practices set forth by this repository. Additionally, it is essential to consider any licensing restrictions or copyright issues associated with the assets you contribute.
+
+## Issues and Support
+
+If you come across any problems or have inquiries regarding this CDN, feel free to open an issue on the GitHub repository. The maintainers of this project will make their best efforts to assist you promptly.
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE). By contributing to this repository, you agree to distribute your contributions under the same license.
