@@ -1,8 +1,8 @@
-# Content Delivery Network (CDN)
+# Nigeria Bank Logos
 
-A Content Delivery Network (CDN) is a specialized repository designed to store and deliver Nigeria banks' logos through the Js Delivr CDN. This CDN ensures efficient and reliable distribution of static logo files.
+A Nigeria Bank Logos is a specialized repository designed to store and deliver Nigeria banks' logos through the Js Delivr CDN. This CDN ensures efficient and reliable distribution of static logo files.
 
-## How to Use the CDN
+## Usage Guide
 
 To incorporate logo assets from this CDN into your project, you can utilize the following URLs:
 
@@ -18,9 +18,9 @@ https://cdn.jsdelivr.net/gh/wovenfinance/cdn@main/logos/000014.png
 
 To optimize browser caching and enhance performance, it is recommended to specify a particular release tag or branch name instead of relying on the default `main` branch.
 
-## Contributing to the CDN
+## Contributing to the project
 
-Contributions to this repository are highly encouraged. If you have any static assets that you would like to share through this CDN, please follow these steps:
+Contributions to this repository are highly encouraged. If you have any bank logo that you would like to share through this repository, please follow these steps:
 
 1. Fork the repository to your own GitHub account.
 2. Create a new branch with a descriptive name for your asset.
